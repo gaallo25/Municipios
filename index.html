@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escuela R</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="app_v3.css?v=15" />
+  </head>
+  <body>
+    
+    <section class="container-banner-principal">
+      <div class="bannerPrincipal">
+        <img class="banner" src="banner.webp" alt="" />
+        <div class="container-logo">
+          <img class="logo" src="logo.svg" alt="" />
+          <p class="title-1">Desarrolla tu liderazgo</p>
+          <p class="title-2">en beneficio de la Regeneración</p>
+          <p class="title-3">
+            El liderazgo se aprende solucionando problemas reales con equipos
+            reales.
+          </p>
+        </div>
+      </div>
+      <p class="titulo-p">Nuestros Programas 2023-2024</p>
+      <div class="grid-tarjetas" id="grid-tarjetas">
+        <div class="container-flex" id="container-flex">
+          <div class="flex-tarjetas" id="flex-tarjetas">
+            <div class="container-tajeta">
+              <div class="container-title">
+                <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+                <div class="flex-2">
+                  <p>Municipios<br />Resilientes</p>
+                </div>
+              </div>
+              <div class="container-description">
+                <p>
+                  Fortalecer el liderazgo de los equipos municipales ante la
+                  respuesta a desastres naturales (inundaciones y huaicos).
+                  Todos los equipos municipales diseñarán un mapeo en el
+                  territorio de acciones para disminuir el impacto e incrementar
+                  la resiliencia de sus ecosistemas y su comunidad.
+                </p>
+              </div>
+            </div>
+            <div class="container-tajeta">
+              <div class="container-title">
+                <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+                <div class="flex-2"><p>Generación R</p></div>
+              </div>
+              <div class="container-description">
+                <p>
+                  Convocaremos a los actuales líderes regeneradores de nuestros
+                  ecosistemas, ciudades, agricultura y educación; para que
+                  pongan sus experiencias, motivaciones, conocimientos y redes
+                  al servicio de formar a la nueva generación de regeneradores
+                  de nuestros ecosistemas y comunidades: a la Generación R.
+                </p>
+              </div>
+            </div>
+            <div class="container-tajeta">
+              <div class="container-title">
+                <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+                <div class="flex-2">
+                  <p>
+                    Desarrollo Urbano<br />
+                    Regenerativo
+                  </p>
+                </div>
+              </div>
+              <div class="container-description">
+                <p>
+                  En este programa exploraremos las potencialidades que tienen
+                  nuestras ciudades y centros poblados en convertirse en
+                  espacios regenerativos. Nos entrenaremos en diseñar y ejecutar
+                  proyectos de desarrollo urbano que contribuyen (y no dañan) a
+                  nuestros ecosistemas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-tarjetas">
+            <div class="container-tajeta">
+              <div class="container-title">
+                <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+                <div class="flex-2">
+                  <p>
+                    Empresas<br />
+                    Carbono Neutral
+                  </p>
+                </div>
+              </div>
+              <div class="container-description">
+                <p>
+                  Convocaremos a las actuales empresas líderes en la reducción y
+                  compensación de su huella de carbono para aprender lo mejor de
+                  ellas. Será un programa de casos prácticos y diseño de
+                  proyectos a partir de la experiencia y tácticas de las
+                  personas y organizaciones comprometidas con el medio ambiente.
+                </p>
+              </div>
+            </div>
+            <div class="container-tajeta">
+              <div class="container-title">
+                <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+                <div class="flex-2">
+                  <p>
+                    Reforestación<br />
+                    Andino-Amazónica
+                  </p>
+                </div>
+              </div>
+              <div class="container-description">
+                <p>
+                  Este programa tiene el objetivo de expandir nuestra capacidad
+                  de regenerar nuestros ecosistemas a través de la
+                  reforestación. Los líderes reforestadores de los andes y la
+                  amazonía compartirán sus experiencias, estrategias e
+                  inspiración para formar a la nueva generación de líderes
+                  reforestadores en montañas y bosques.
+                </p>
+              </div>
+            </div>
+            <div class="container-tajeta">
+              <div class="container-title">
+                <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+                <div class="flex-2">
+                  <p>
+                    Agricultura<br />
+                    Regenerativa
+                  </p>
+                </div>
+              </div>
+              <div class="container-description">
+                <p>
+                  La agricultura también puede ser una actividad regeneradora de
+                  ecosistemas. En este programa compartiremos conocimientos y
+                  prácticas con líderes campesinos y permacultores que han
+                  desarrollado prácticas agrícolas regenerativas en sus
+                  territorios; y diseñaremos nuestro propio proyecto de
+                  agricultura regenerativa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-tarjetas-movil" id="grid-tarjetas-movil">
+        <div class="container-tajeta">
+          <div class="container-title">
+            <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+            <div class="flex-2">
+              <p>Municipios<br />Resilientes</p>
+            </div>
+          </div>
+          <div class="container-description">
+            <p>
+              Fortalecer el liderazgo de los equipos municipales ante la
+              respuesta a desastres naturales (inundaciones y huaicos). Todos
+              los equipos municipales diseñarán un mapeo en el territorio de
+              acciones para disminuir el impacto e incrementar la resiliencia de
+              sus ecosistemas y su comunidad.
+            </p>
+          </div>
+        </div>
+        <div class="container-tajeta">
+          <div class="container-title">
+            <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+            <div class="flex-2"><p>Generación R</p></div>
+          </div>
+          <div class="container-description">
+            <p>
+              Convocaremos a los actuales líderes regeneradores de nuestros
+              ecosistemas, ciudades, agricultura y educación; para que pongan
+              sus experiencias, motivaciones, conocimientos y redes al servicio
+              de formar a la nueva generación de regeneradores de nuestros
+              ecosistemas y comunidades: a la Generación R.
+            </p>
+          </div>
+        </div>
+
+        <div class="container-tajeta">
+          <div class="container-title">
+            <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+            <div class="flex-2">
+              <p>
+                Desarrollo Urbano<br />
+                Regenerativo
+              </p>
+            </div>
+          </div>
+          <div class="container-description">
+            <p>
+              En este programa exploraremos las potencialidades que tienen
+              nuestras ciudades y centros poblados en convertirse en espacios
+              regenerativos. Nos entrenaremos en diseñar y ejecutar proyectos de
+              desarrollo urbano que contribuyen (y no dañan) a nuestros
+              ecosistemas.
+            </p>
+          </div>
+        </div>
+
+        <div class="container-tajeta">
+          <div class="container-title">
+            <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+            <div class="flex-2">
+              <p>
+                Empresas<br />
+                Carbono Neutral
+              </p>
+            </div>
+          </div>
+          <div class="container-description">
+            <p>
+              Convocaremos a las actuales empresas líderes en la reducción y
+              compensación de su huella de carbono para aprender lo mejor de
+              ellas. Será un programa de casos prácticos y diseño de proyectos a
+              partir de la experiencia y tácticas de las personas y
+              organizaciones comprometidas con el medio ambiente.
+            </p>
+          </div>
+        </div>
+
+        <div class="container-tajeta">
+          <div class="container-title">
+            <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+            <div class="flex-2">
+              <p>
+                Reforestación<br />
+                Andino-Amazónica
+              </p>
+            </div>
+          </div>
+          <div class="container-description">
+            <p>
+              Este programa tiene el objetivo de expandir nuestra capacidad de
+              regenerar nuestros ecosistemas a través de la reforestación. Los
+              líderes reforestadores de los andes y la amazonía compartirán sus
+              experiencias, estrategias e inspiración para formar a la nueva
+              generación de líderes reforestadores en montañas y bosques.
+            </p>
+          </div>
+        </div>
+
+        <div class="container-tajeta">
+          <div class="container-title">
+            <div class="flex-1"><img src="logo2.svg" alt="" /></div>
+            <div class="flex-2">
+              <p>
+                Agricultura<br />
+                Regenerativa
+              </p>
+            </div>
+          </div>
+          <div class="container-description">
+            <p>
+              La agricultura también puede ser una actividad regeneradora de
+              ecosistemas. En este programa compartiremos conocimientos y
+              prácticas con líderes campesinos y permacultores que han
+              desarrollado prácticas agrícolas regenerativas en sus territorios;
+              y diseñaremos nuestro propio proyecto de agricultura regenerativa.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="circulos-carrusel-pc">
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+      </div>
+      <div class="circulos-carrusel-movil">
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+      </div>
+    </section>
+    <section class="container-objetivos">
+      <img src="imgobjetivos.webp" alt="" />
+      <div class="objetivos">
+        <p>Nuestros objetivos del 2023</p>
+        <div class="items-objetivos">
+          <div>
+            <p class="numero-objetivo">400</p>
+            <p style="font-family: Roboto; font-size: 1.1rem">
+              Líderes<br />
+              formados
+            </p>
+          </div>
+          <div>
+            <p class="numero-objetivo">20</p>
+            <p style="font-family: Roboto; font-size: 1.1rem">
+              Docentes reconocidos en<br />
+              nuestra plana docente
+            </p>
+          </div>
+          <div>
+            <p class="numero-objetivo">4</p>
+            <p style="font-family: Roboto; font-size: 1.1rem">Programas</p>
+          </div>
+          <div>
+            <p class="numero-objetivo">1</p>
+            <p style="font-family: Roboto; font-size: 1.1rem">
+              Encuentro<br />
+              anual
+            </p>
+          </div>
+        </div>
+
+        <span
+          class="p14"
+          style="
+            display: block;
+            color: white;
+            margin-top: 2rem;
+            font-size: 1.1rem;
+          "
+        >
+          Nuestro primer año estará lleno de innovación, trabajo colectivo y
+          naturaleza. Queremos empoderar a nueva generación<br />
+          de jóvenes lationamericanos que impulsen cambios reales para conservar
+          la biodiversidad de América Latina
+        </span>
+      </div>
+    </section>
+
+    <section class="modelo-formativo">
+      <div>
+        <p
+          style="
+            color: #50b37e;
+            font-family: BasisBlack;
+            font-size: 3rem;
+            text-align: center;
+          "
+        >
+          Modelo Formativo
+        </p>
+        <p class="p14 mt-y-2 pad-x-15">
+          Nuestro modelo formativo consta de 6 dimensiones que buscan el
+          desarrollo integral y coherente de los líderes.
+        </p>
+        <div class="">
+          <p
+            style="
+              font-size: 1.7rem;
+              font-family: BasisBlack;
+              text-align: center;
+              color: #85c14c;
+            "
+          >
+            Desarrollo Personal
+          </p>
+        </div>
+        <p class="p14 mt-y-2 pad50">
+          Las dimensiones enfocadas en el crecimiento personal e identidad del
+          "ser".
+        </p>
+        <div
+          class="container-cards-crecimiento"
+          id="container-cards-crecimiento"
+        >
+          <div class="card-crecimiento">
+            <div
+              class="leaf-crecimiento"
+              style="
+                background-image: url(estilodevida.webp);
+                background-size: 100%;
+                background-position: 50% 50%;
+              "
+            ></div>
+            <div class="info-crecimiento">
+              <p class="titulo-crecimiento">Estilo de vida.</p>
+              <p class="texto-crecimiento">
+                Es capaz de identificar y re-formular<br />
+                sus hábitos de vida y consumo para<br />
+                tomar decisiones cotidianas más <br />
+                conscientes con el planeta.
+              </p>
+            </div>
+          </div>
+          <div class="card-crecimiento">
+            <div
+              class="leaf-crecimiento"
+              style="
+                background-image: url(espiritualidad.webp);
+                background-size: 100%;
+                background-position: 50% 50%;
+              "
+            ></div>
+            <div class="info-crecimiento">
+              <p class="titulo-crecimiento">Espiritualidad.</p>
+              <p class="texto-crecimiento">
+                Implementa prácticas para re-conectar<br />
+                con su voz interior y lograr mantenerse<br />
+                en armonía consigo mismo, con su<br />
+                propósito y con su entorno.
+              </p>
+            </div>
+          </div>
+          <div class="card-crecimiento">
+            <div
+              class="leaf-crecimiento"
+              style="
+                background-image: url(comunidad.webp);
+                background-size: 150%;
+                background-position: 50% 50%;
+              "
+            ></div>
+            <div class="info-crecimiento">
+              <p class="titulo-crecimiento">Comunidad.</p>
+              <p class="texto-crecimiento">
+                Identifica sus paradigmas y prejuicios<br />
+                para trabajar en ellos y así mejorar<br />
+                sus relaciones con los demás y<br />
+                construir comunidad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="circulos-carrusel" id="circulos-carrusel">
+          <div class="circulos"></div>
+          <div class="circulos"></div>
+          <div class="circulos"></div>
+        </div>
+
+        <div class="" style="margin-top: 5rem">
+          <p
+            style="
+              font-size: 1.7rem;
+              font-family: BasisBlack;
+              text-align: center;
+              color: #85c14c;
+            "
+          >
+            Impacto Regenerativo
+          </p>
+        </div>
+        <p class="p14 mt-y-2 pad50">
+          Las competencias a desarrollar en las dimensiones enfocadas en el
+          accionar holístico desde el “hacer”.
+        </p>
+        <div
+          class="container-cards-crecimiento"
+          id="container-cards-crecimiento2"
+        >
+          <div class="card-crecimiento">
+            <div
+              class="leaf-crecimiento"
+              style="
+                background-image: url(social.webp);
+                background-size: 100%;
+                background-position: 70% 40%;
+              "
+            ></div>
+            <div class="info-crecimiento">
+              <p class="titulo-crecimiento">Social.</p>
+              <p class="texto-crecimiento">
+                Es capaz de reflexionar<br />
+                críticamente, comunicar y movilizar<br />
+                a grupos y colectivos hacia la<br />
+                acción por la regeneración.
+              </p>
+            </div>
+          </div>
+          <div class="card-crecimiento">
+            <div
+              class="leaf-crecimiento"
+              style="
+                background-image: url(economia.webp);
+                background-size: 100%;
+                background-position: 50% 30%;
+              "
+            ></div>
+            <div class="info-crecimiento">
+              <p class="titulo-crecimiento">Economía.</p>
+              <p class="texto-crecimiento">
+                Incorpora los principios de<br />
+                desarrollo regenerativo y economía<br />
+                circular a sus programas de<br />
+                impacto o soluciones de negocio.
+              </p>
+            </div>
+          </div>
+          <div class="card-crecimiento">
+            <div
+              class="leaf-crecimiento"
+              style="
+                background-image: url(ecologia.webp);
+                background-size: 155%;
+                background-position: 50% 30%;
+              "
+            ></div>
+            <div class="info-crecimiento">
+              <p class="titulo-crecimiento">Ecología.</p>
+              <p class="texto-crecimiento">
+                Entiende los principios de diseño<br />
+                ecológico para co-crear proyectos<br />
+                que contribuyen a la sostenibilidad<br />
+
+                y a la regeneración.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="circulos-carrusel"
+          id="circulos-carrusel2"
+          style="margin-bottom: 2rem"
+        >
+          <div class="circulos"></div>
+          <div class="circulos"></div>
+          <div class="circulos"></div>
+        </div>
+      </div>
+    </section>
+    <section class="container-como-aprendemos">
+      <div class="container-svg">
+        <img src="clipath1.svg" class="svg1" />
+      </div>
+      <div
+        style="background-color: #082f24; margin-top: -20px; padding-top: 6rem"
+      >
+        <p class="p14 white parrafo">
+          Los líderes del mundo se enfrentan al mayor reto de la humanidad en
+          este siglo:
+        </p>
+        <p
+          style="
+            max-width: 60%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'RobotoRegular';
+            color: white;
+          "
+        >
+          la transición climática. Esto requerirá que el aprendizaje venga con
+          acción. Nuestros +15 años de experiencia formando líderes nos han
+          llevado a desarrollar una estrategia que maximiza el impacto de
+          nuestros alumnos en el mundo real. Lo llamamos: PEDAGOGÍA-ACCIÓN
+        </p>
+        <p class="title-como-aprendemos">Nuestra estrategia de impacto</p>
+
+        <div class="container-cards-aprendemos" id="container-cards-aprendemos">
+          <div class="card-aprendemos">
+            <img src="icono1.svg" alt="" />
+            <p class="title">Problemas Reales</p>
+            <p class="descripcion">
+              Nuestros cursos abordan problemáticas socioambientales actuales y
+              cruciales que ponen en riesgo el bienestar del ser humano, las
+              especies y los ecosistemas.
+            </p>
+          </div>
+          <div class="card-aprendemos">
+            <img src="icono2.svg" alt="" />
+            <p class="title">Desing Thinking</p>
+            <p class="descripcion">
+              Diseñamos cada programa 'ad hoc' a través de entrevistas, visitas
+              de campo y experimentos. El objetivo es multiplicar los casos de
+              éxitos y el liderazgo detrás de ellos.
+            </p>
+          </div>
+          <div class="card-aprendemos">
+            <img src="icono3.svg" alt="" />
+            <p class="title">Participación en Equipos</p>
+            <p class="descripcion">
+              La participación en los programas es por equipos de colaboradores,
+              pues son los equipos los que materializan el cambio. Formamos
+              equipos; no solo personas.
+            </p>
+          </div>
+          <div class="card-aprendemos">
+            <img src="icono4.svg" alt="" />
+            <p class="title">Co-Creación de un Proyecto</p>
+            <p class="descripcion">
+              A lo largo del programa los equipos aplican los aprendizajes en el
+              diseño incremental de un proyecto. Este proyecto se vuelve la
+              espina dorsal del aprendizaje.
+            </p>
+          </div>
+          <div class="card-aprendemos">
+            <img src="icono5.svg" alt="" />
+            <p class="title">Seguimiento Hiper-personalizado</p>
+            <p class="descripcion">
+              Cada persona y equipo estará acompañado por un facilitador(a).
+              Medimos el nivel de participación y compromiso de cada
+              participante y equipo semana a semana.
+            </p>
+          </div>
+        </div>
+        <div class="circulos-carrusel">
+          <div class="circulos"></div>
+          <div class="circulos"></div>
+          <div class="circulos"></div>
+          <div class="circulos"></div>
+          <div class="circulos"></div>
+        </div>
+      </div>
+      <div class="container-svg">
+        <img src="clipath2.svg" class="svg2" />
+      </div>
+    </section>
+    <section class="container-components-movil">
+      <div class="container-mision-vision" id="container-mision-vision">
+        <div class="container-mision">
+          <div
+            style="
+              width: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <div style="width: 12%">
+              <img src="iconoMision.svg" />
+            </div>
+
+            <div class="mision">
+              <p class="title-mision">Misión</p>
+              <p class="descripcion-mision" style="font-family: Roboto">
+                Fortalecer el impacto de los actuales y futuros líderes por la
+                regeneración socio-ambiental de Iberoamérica a través de
+                programas formativos e innovación pedagógica.
+              </p>
+            </div>
+            <div class="mantra">
+              <p>MANTRA:</p>
+              <p>Formar lideres para la regeneración.</p>
+            </div>
+          </div>
+
+          <div class="leaf-components">
+            <img src="foto7.webp" alt="" />
+          </div>
+        </div>
+        <div class="container-mision">
+          <div
+            style="
+              width: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <div style="width: 12%">
+              <img src="iconoMision.svg" />
+            </div>
+
+            <div class="mision">
+              <p class="title-mision">Visión</p>
+              <p class="descripcion-mision" style="font-family: Roboto">
+                Ser una organización líder en la formación online para la
+                regeneración en Español, a través de su oferta de programas y la
+                participación activa en red.
+              </p>
+            </div>
+            <div class="mantra">
+              <p>MANTRA:</p>
+              <p>Formar líderes para la regeneración.</p>
+            </div>
+          </div>
+
+          <div class="leaf-components">
+            <img src="vision.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="circulos-carrusel">
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+      </div>
+    </section>
+    <section class="container-components">
+      <div class="container-mision-vision">
+        <div class="container-mision">
+          <div style="width: 12%">
+            <img src="iconoMision.svg" />
+          </div>
+
+          <div class="mision">
+            <p class="title-mision">Misión</p>
+            <p class="descripcion-mision" style="font-family: Roboto">
+              Fortalecer el impacto de los actuales y futuros líderes por la
+              regeneración socio-ambiental de Iberoamérica a través de programas
+              formativos e innovación pedagógica.
+            </p>
+          </div>
+        </div>
+        <div class="container-mision">
+          <div style="width: 12%">
+            <img src="iconoVision.svg" />
+          </div>
+
+          <div class="mision">
+            <p class="title-mision">Visión</p>
+            <p class="descripcion-mision" style="font-family: Roboto">
+              Ser una organización líder en la formación online para la
+              regeneración en Español, a través de su oferta de programas y la
+              participación activa en red.
+            </p>
+          </div>
+        </div>
+        <div class="mantra">
+          <p style="font-family: BasisBlack; color: white; font-size: 1.1rem">
+            MANTRA:
+          </p>
+          <p style="font-family: Roboto; color: white; font-size: 1.1rem">
+            Formar lideres para la regeneración.
+          </p>
+        </div>
+      </div>
+      <div class="leaf-components">
+        <img src="foto7.webp" alt="" />
+      </div>
+    </section>
+    <section class="container-equipo">
+      <div class="equipo">Equipo</div>
+      <div class="container-cards-equipo" id="container-cards-equipo">
+        <div class="card-equipo">
+          <div
+            class="foto mt-1"
+            style="
+              background-image: url(Carlos2.png);
+
+              background-size: 140%;
+              background-position: 53% 58%;
+            "
+          >
+            <!-- <img src="Carlos.png" alt=""> -->
+          </div>
+          <div class="nombre mt-1">
+            <p>Carlos Rueda, Perú</p>
+            <img src="peru.webp" />
+          </div>
+          <div class="profesion mt-1">CEO</div>
+          <div class="biografia mt-1">
+            <p>
+              Experto en pedagogías experienciales y online. +15 años de
+              experiencia trabajando en proyectos educativos para empresas,
+              universidades y gobierno en EEUU, Canadá y Perú.
+            </p>
+          </div>
+        </div>
+        <div class="card-equipo">
+          <div
+            class="foto mt-1"
+            style="
+              background-image: url(manuela.png);
+              background-size: 159%;
+              background-position: 56% 26%;
+            "
+          ></div>
+          <div class="nombre mt-1">
+            <p>Manuela Garcia, Colombia</p>
+            <img src="colombia.webp" />
+          </div>
+          <div class="profesion mt-1">Coordinadora de programas</div>
+          <div class="biografia mt-1">
+            <p>
+              Pedagoga con más de 7 años de experiencia en diseño e
+              implementación de metodologías de aprendizaje con niños y adultos
+              en Colombia, Argentina y Perú.
+            </p>
+          </div>
+        </div>
+        <div class="card-equipo">
+          <div
+            class="foto mt-1"
+            style="
+              background-image: url(oscar.png);
+
+              background-size: 133%;
+              background-position: 58% 58%;
+            "
+          >
+            <!-- <img src="Carlos.png" alt=""> -->
+          </div>
+          <div class="nombre mt-1">
+            <p>Oscar Malaspina, Perú</p>
+            <img src="peru.webp" />
+          </div>
+          <div class="profesion mt-1">Diseño de experiencias</div>
+          <div class="biografia mt-1">
+            <p>
+              9 años de experiencia liderando, diseñando e implementando
+              servicios y estrategias empresariales desde la innovación y el
+              Design Thinking.
+            </p>
+          </div>
+        </div>
+        <div class="card-equipo">
+          <div
+            class="foto mt-1"
+            style="
+              background-image: url(leslie.png);
+              background-size: 145%;
+              background-position: 54% 47%;
+            "
+          ></div>
+          <div class="nombre mt-1">
+            <p>Leslie Tucno, Perú</p>
+            <img src="peru.webp" />
+          </div>
+          <div class="profesion mt-1">Pedagoga</div>
+          <div class="biografia mt-1">
+            <p>
+              Con más de 8 años diseñando, implementando y ejecutando
+              experiencias de aprendizaje en espacios formales y no formales con
+              diverso grupo etario.
+            </p>
+          </div>
+        </div>
+        <div class="card-equipo">
+          <div
+            class="foto mt-1"
+            style="
+              background-image: url(patricia.png);
+
+              background-size: 140%;
+              background-position: 69% 58%;
+            "
+          >
+            <!-- <img src="Carlos.png" alt=""> -->
+          </div>
+          <div class="nombre mt-1">
+            <p>Patricia Campos, Perú</p>
+            <img src="peru.webp" />
+          </div>
+          <div class="profesion mt-1">Finanzas y contabilidad</div>
+          <div class="biografia mt-1">
+            <p>
+              Contadora de Sistema B Perú. Con 18 años de experiencia en las
+              áreas de contabilidad, finanzas, tesorería, gestión con bancos,
+              elaboración de flujos de caja, proyecciones, administración de
+              recursos humanos y gestión empresarial.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="card-equipo">
+          <div class="foto mt-1" style=" background-image: url(manuela.png);
+          background-size: 159%;
+          background-position: 68% 26%;">
+          </div>
+          <div class="nombre mt-1">
+            <p>María Paz Salas, Colombia</p><img src="colombia.webp">
+          </div>
+          <div class="profesion mt-1">
+            CEO
+          </div>
+          <div class="biografia mt-1"><p>
+            Pedagoga con más de 7 años de
+            experiencia en diseño e implementación
+            de metodologías de aprendizaje con
+            niños y adultos en Colombia, Argentina y
+            Perú. </p>
+          </div>
+        </div>
+        <div class="card-equipo">
+          <div class="foto mt-1" style=" background-image: url(manuela.png);
+          background-size: 159%;
+          background-position: 68% 26%;">
+          </div>
+          <div class="nombre mt-1">
+            <p>Carlos Rueda, Perú</p><img src="">
+          </div>
+          <div class="profesion mt-1">
+            CEO
+          </div>
+          <div class="biografia mt-1"><p>
+            Pedagoga con más de 7 años de
+            experiencia en diseño e implementación
+            de metodologías de aprendizaje con
+            niños y adultos en Colombia, Argentina y
+            Perú. </p>
+          </div>
+        </div> -->
+      </div>
+      <div class="circulos-carrusel">
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+        <div class="circulos"></div>
+      </div>
+      <div class="container-svg">
+        <img src="topform.svg" class="svg1" alt="" />
+      </div>
+    </section>
+    <section class="container-formulario">
+      <div class="complemento-formulario"></div>
+      <p
+        style="
+          margin-top: 0rem;
+          font-family: BasisBlack;
+          font-size: 1.1rem;
+          color: white;
+          z-index: 5;
+        "
+      >
+        ¿Estás interesado(a) en recibir información sobre alguno de nuestros
+        programas?
+      </p>
+      <div class="formulario">
+        <p style="font-family: BasisBlack; font-size: 1.1rem; color: #082f24">
+          Conoce más junto a nosotros y registra tus datos aquí
+        </p>
+        <form action="" method="POST" id="formulario">
+          <div class="camposFormulario">
+            <label for="Nombre">Nombre</label
+            ><input type="text" name="Nombre" id="" />
+          </div>
+          <div class="camposFormulario">
+            <label for="Empresa">Apellido</label
+            ><input type="text" name="Apellido" id="" />
+          </div>
+          <div class="camposFormulario">
+            <label for="Telefono">Teléfono</label
+            ><input type="text" name="Telefono" id="" />
+          </div>
+          <div class="camposFormulario">
+            <label for="Email">Email</label
+            ><input type="email" name="Email" id="" />
+          </div>
+          <div class="camposFormulario">
+            <label for="Pais">País</label
+            ><input type="text" name="Pais" id="" />
+          </div>
+          <div class="camposFormulario">
+            <label for="Departamento">Programa de interes</label
+            ><input type="text" name="Programa" id="" />
+          </div>
+          <div class="camposFormulario">
+            <button id="registrar">Registrarme</button>
+          </div>
+        </form>
+        <span id="mensaje" style="font-family: Roboto; color: #85c14c"></span>
+      </div>
+    </section>
+    <section class="footer">
+      <img src="landing-escuelar1.3.png" alt="" style="max-width: 100%" />
+    </section>
+    <div class="whatsapp-icon-container">
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=51992209139">
+        <img src="WhatsApp.svg.webp" alt="" />
+      </a>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
