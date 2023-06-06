@@ -56,13 +56,14 @@ body {
   height: 90vh;
   background-image: url(Bannerp.png);
   background-size: 100%;
+  margin-top: 160px;
 }
 .banner {
   display: flex;
   height: 100%;
 }
 .equipo {
-  padding: 0px 0px;
+  padding: 2rem 0px;
   text-align: center;
   font-size: 1.6rem;
   font-family: "BasisBlack";
@@ -75,6 +76,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.roboto-regular {
+  font-family: RobotoRegular;
 }
 .card-aprendemos {
   border-radius: 1rem;
@@ -90,6 +94,7 @@ body {
   font-family: BasisBlack;
   font-size: 2rem;
   margin-bottom: 13px;
+  color: #528e7a;
 }
 .dirigido-child {
   display: flex;
@@ -100,6 +105,15 @@ body {
 }
 .dirigido-descripcion {
   width: 70%;
+  color: #528e7a;
+  font-size: 1.2rem;
+}
+.form .descripcion {
+  text-align: center;
+  font-family: Roboto;
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
 .title-impacto {
   font-family: BasisBlack;
@@ -135,6 +149,12 @@ body {
 }
 .pequeña {
   display: none;
+}
+.contactanos {
+  display: flex;
+}
+.contactanos img {
+  max-height: 10%;
 }
 .flex-1 {
   width: 10%;
@@ -211,6 +231,20 @@ body {
   font-size: 1.1rem;
   padding-bottom: 1.5rem;
 }
+.title-form {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.title-form .icon {
+  width: 20%;
+}
+.title-form .icon img {
+  width: 100%;
+}
+.title-form .title {
+  width: 60%;
+}
 .modalidad {
   background-color: #528e7a;
   padding-top: 1rem;
@@ -262,9 +296,9 @@ body {
 .form {
   max-width: 40% !important;
   width: 80%;
-  border-radius: 15px;
+  border-radius: 35px;
   background-color: #6da74e;
-  padding: 12px;
+  padding: 25px 12px;
 }
 .form-municipios {
   display: flex;
@@ -272,22 +306,54 @@ body {
 
   max-width: 100%;
 }
+/* 
 
+
+
+
+
+
+
+*/
+.terminos {
+  appearance: none;
+  width: 60px;
+  height: 60px;
+}
+.terminos:checked {
+  background-image: url(check1.svg);
+  background-size: 60%;
+  background-position: 51%;
+  background-repeat: no-repeat;
+}
+div label {
+  font-family: RobotoRegular;
+  font-size: 1.5rem;
+  color: white;
+}
+/* 
+
+
+
+
+
+*/
 .form-municipios input {
   margin-top: 10px;
   background-color: transparent;
   border-style: none;
   border: 1px #082f24 solid;
   border-radius: 35px 0 35px 0;
-  padding: 10px 25px;
+  padding: 20px 25px;
   color: white;
   font-family: RobotoRegular;
   font-size: 1.1rem;
 }
+
 .form-municipios input::placeholder {
   color: white;
   font-family: RobotoRegular;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .form-curso {
   width: 50%;
@@ -316,17 +382,17 @@ body {
   .form {
     max-width: 60% !important;
     width: 80%;
-    border-radius: 15px;
+
     background-color: #6da74e;
-    padding: 12px;
+    padding: 35px 12px;
   }
-  .pequeña {
+  /* .pequeña {
     position: absolute;
     top: -160px;
     display: block;
-  }
+  } */
   .grande {
-    display: none;
+    display: block;
   }
 }
 @media (max-width: 1024px) {

@@ -3,31 +3,64 @@
   <head>
     <title>Municipios Recilientes</title>
     <link rel="stylesheet" href="app_v3.css" />
+    <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="Municipios.css" />
   </head>
+
   <body>
+    <header>
+      <div class="contactanos">
+        <p>Contactanos +51 992209139</p>
+        <img src="phone.svg" alt="" />
+      </div>
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <a href="#"><img src="logo-header.svg" alt="" /></a>
+        </div>
+        <div class="navbar-menu" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#">Programas</a></li>
+            <li class="nav-item"><a href="#">Modelo Formativo</a></li>
+            <li class="nav-item"><a href="#">Impacto</a></li>
+            <li class="nav-item"><a href="#">Misión</a></li>
+            <li class="nav-item"><a href="#">Visión</a></li>
+            <li class="nav-item"><a href="#">Equipo</a></li>
+          </ul>
+        </div>
+        <div class="hamburger-menu" id="hamburgerMenu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
     <section class="banner-form">
       <div class="banner">
         <!-- <img src="fotofooter.webp" alt=""> -->
         <div class="title-curso">
           <div style="font-size: 2rem; color: white; padding-top: 13rem">
-            <p>CURSO</p>
-            <p>
-              <b
-                >Municipios<br />
-                Resilientes</b
-              >
+            <p style="font-family: BasisBlack; font-size: 5rem">CURSO</p>
+            <p style="font-family: BasisBlack; font-size: 6.5rem">
+              Municipios<br />
+              Resilientes
             </p>
+            <p style="font-family: RobotoRegular; font-size: 4rem">2023</p>
           </div>
         </div>
         <div class="form-curso">
           <div class="form">
             <div class="title-form">
-              <div class="icon"><img src="icono1.svg" alt="" /></div>
+              <div class="icon"><img src="calendar.svg" alt="" /></div>
               <div class="title">
-                <p>
+                <p
+                  style="
+                    font-size: 2.5rem;
+                    font-family: 'RobotoRegular';
+                    color: white;
+                  "
+                >
                   Proximo inicio<br />
-                  <b>10 de junio 2023</b>
+                  <b>19 de junio 2023</b>
                 </p>
               </div>
             </div>
@@ -35,9 +68,24 @@
               <p>Para mas informacion dejanos tus datos</p>
             </div>
             <form action="" class="form-municipios">
-              <input type="text" placeholder="*Nombres" />
-              <input type="text" placeholder="*Apellidos" />
-              <input type="text" placeholder="*Correo electronico" />
+              <input name="Nombre" type="text" placeholder="*Nombres" />
+              <input name="Apellido" type="text" placeholder="*Apellidos" />
+              <input
+                name="Email"
+                type="text"
+                placeholder="*Correo electronico"
+              />
+              <input name="Telefono" type="text" placeholder="*Telefono" />
+              <div style="display: flex; align-items: center; gap: 20px">
+                <input
+                  type="checkbox"
+                  class="terminos"
+                  name="Terminos"
+                  id=""
+                /><label for="Terminos"
+                  >He leído y acepto que mis datos sean tratados</label
+                >
+              </div>
             </form>
           </div>
         </div>
@@ -93,8 +141,8 @@
             </div>
             <div class="container-description">
               <p>
-                Competencias teóricas y prácticas relacionados a la gestión
-                gestión de riesgos de desastres
+                Competencias teóricas y prácticas relacionadas a la gestión de
+                riesgos de desastres
               </p>
             </div>
           </div>
@@ -104,7 +152,7 @@
               <div class="flex-2">
                 <p>
                   Plan de acciones<br />
-                  ante un niño 2024
+                  ante el niño 2024
                 </p>
               </div>
             </div>
@@ -170,9 +218,9 @@
           <div class="dirigido-descripcion">
             <p class="title-dirigido">Objetivos:</p>
             <p class="descripcion">
-              Equipos municipales a cargo de la Gestión de Riesgo de Desastres
-              de los distritos declarados en muy alto riesgo ante el fenomeno de
-              El Niño en el Perú.
+              <b>Fortalecer la gestión y el liderazgo</b> de los equipos
+              municipales más vulnerables ante el Fenómeno del Niño, y apoyarlos
+              en <b>diseñar acciones factibles </b>antes de Diciembre 2023.
             </p>
           </div>
         </div>
@@ -267,14 +315,14 @@
             <!-- <img src="Carlos.png" alt=""> -->
           </div>
           <div class="nombre mt-1">
-            <p>Miluska Ordoñez, Perú</p>
+            <p>Carlos Rueda, Perú</p>
           </div>
           <div class="profesion mt-1">Practical Action</div>
           <div class="biografia mt-1">
             <p>
-              Educadora y especialista con más de 10 años de experiencia en
-              gestión de riesgos y adaptación al cambio climático en Practical
-              Action.
+              Experto en pedagogías experienciales y online. +15 años de
+              experiencia trabajando en proyectos educativos para empresas,
+              universidades y gobierno en EEUU, Canadá y Perú.
             </p>
           </div>
         </div>
@@ -301,6 +349,9 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="footer">
+      <img src="landing-escuelar1.3.png" alt="" style="max-width: 100%" />
     </section>
   </body>
 </html>
