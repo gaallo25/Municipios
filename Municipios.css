@@ -373,6 +373,11 @@ div label {
     display: flex;
     margin-top: 0rem;
   }
+  .container-flex {
+    width: 100%;
+    display: flex;
+    max-width: 1400px;
+}
   .impacto {
     padding-top: 2rem;
   }
